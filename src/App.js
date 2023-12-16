@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer/Footer';
 import MainPage from './Components/MainPage';
 import UserDetails from "./Components/UserDetails";
-import animationData from './loading-animation.json';
+
 function App() {
   return (
     <>     
@@ -17,7 +17,8 @@ function App() {
       <Navbar />
         <Routes>
     
-        <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/Quizfront" element={<MainPage />} />
           <Route path="/user/:id" element={<UserDetails />} />
       
         </Routes>
