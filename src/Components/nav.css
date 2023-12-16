@@ -1,0 +1,48 @@
+ .navbur {
+  background:   rgb(127, 151, 233,0.6)  ;
+  box-shadow: rgb(188, 193, 201) 0px 0px 10px -10px;
+  padding: 20px 0;
+  position: relative;
+  border-bottom: 0.1px solid var(  rgb(13, 1, 44,0.7) );
+
+  transition: all 0.5s ease !important;
+}
+nav {
+  display: flex !important;
+  float: right;
+  padding-right: 40px;
+}
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu > ul {
+  display: flex;
+}
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 24px;
+}
+
+ 
+ 
+  
+.devman {
+  color: var(--color-button-hover) !important;
+  font-size: 1.6rem !important;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0 !important;
+
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  align-items: center;
+  font-weight: 800 !important;
+}
+ 
+ 
+.icon-font {
+  font-family: cursive;
+}
+ 

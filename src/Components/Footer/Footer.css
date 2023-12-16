@@ -1,0 +1,27 @@
+.footer {
+  background-color: #7f97e9;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #000000; /* Set default text color for better readability */
+}
+
+.copywrite {
+  text-align: center;
+}
+
+.copywrite p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Improve readability for the text color */
+.copywrite a {
+  color: #000000;
+}
+
+/* Style the link on hover */
+.copywrite a:hover {
+  color: #000000;
+}
